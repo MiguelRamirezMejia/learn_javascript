@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+/*comentarios
+una sola linea //
+varias lineas  */
+
+
+
+/*VARIABLES
+*Tipos de datos:
+undefined, null. boolean, string, symbol, number, y object.*/
+
+
+
+/*
+
+var miVariable="learn javascript";
+
+console.log(miVariable);
+
+miVariable=16;
+console.log(miVariable);
+
+*/
+
+
+//a las variables que aun no se les ha asignado el valor, por defecto se muestra como "undefine"
+/*
+
+var a;
+var b=2;
+
+console.log(a); //undefined
+console.log(b); //esta si tiene valor
+
+*/
+
+
+//podemos asiganarle valor a una variable asi
+
+/*
+
+a=10;
+console.log(a);*/
+
+
+/*
+
+//reasignando valores
+var a=5
+var b=a
+
+console.log(a);
+console.log(b); 
+
+*/
+
+
+//formato de escritura camelCase
+
+//inicializar variables
+//es cuando creamos la variable y al mismo tiempole asignamos un valor
+
+/*
+
+var a=9;
+var b=10;
+console.log(a);
+console.log(b);
+
+*/
+
+
+//----vaariables no inicializadas
+//creamos una variable pero no le asignamos valor
+
+/*
+
+var a=10
+var b;
+
+console.log(a);
+console.log(b);
+ b=20;
+ console.log(b);
+
+ */
+
+
+//jasvascript es sensible a las mayúsculas y minúsculas
+/*var miVariable=5;*/
+//consologe.log(MIVARIABLE);//ERROR
+//consologe.log(MiVariable);//ERROR
+//consologe.log(mivariable);//ERROR
+
+//console.log(miVariable);//fine
+
+
+
+//OPERACIONES ARITMETICAS
+
+//SUMA
+
+/*var suma=8 + 2;
+console.log(suma);*/
+
+//RESTA
+
+/* var resta= 10 - 5;
+console.log(resta);
+
+resta=5 - 10;
+console.log(resta); */
+
+//MULTIPLICACION
+
+/* var multiplicacion=10*2;
+console.log(multiplicacion)
+
+var multiplicacion=-10*-2;
+console.log(multiplicacion);*/
+
+
+//DIVISION
+
+/* var division= 10 / 2;
+console.log(division);
+
+division=2 / 10;
+console.log(division);
+
+division= 2 / 0;
+console.log(division);*/
+
+
+//NUMERO DECIMALES
+
+//var miNumeroDecimal= 22.5; //de esta forma se escriben los decimales
+
+
+//RESIDUO DIVISION
+
+/*var residuo= 15%5;
+console.log(residuo);
+
+residuo=14 % 3;
+console.log(residuo);*/
+
+
+//AUMENTANDO valor VARIABLE
+/*
+var cursos=100;
+console.log(cursos); //inicialmente
+
+//opcion 1
+cursos=cursos + 1;
+console.log(cursos);
+
+//opcion 2
+cursos++;
+console.log(cursos); */
+
+
+//REDUCIR VALOR VARIABLE
+
+/*var cursosAlumnos=100;
+console.log(cursosAlumnos);
+
+//OPCION 1
+cursosAlumnos=cursosAlumnos - 1;
+console.log(cursosAlumnos);
+
+//OPCION 2
+cursosAlumnos--;
+console.log(cursosAlumnos); */
+
+//REDUCIR O INCREMENTAR VARIABLE A OTRO NUMERO
+
+/* var a=10;
+a=a+5;
+console.log(a);
+
+//OPCION 2
+
+a += 5;
+console.log(a); //sumar
+
+a -=10;
+console.log(a);//restar
+
+a *= 2;
+console.log(a); //multiplicar
+
+a /= 2;
+console.log(a); //dividir
+
+*/
+
+
+//VARIABLES CADENA DE CARACTERES
+/*cualquier simbolo o espacio se considera un caracter*/ 
+
+//var nombre = "Miguel";
+
+//ESCAPAR COMILLAS
+
+//var ejemplo="hola soy una \"cadena\"" 
+
+
+
+
+/* SECUENCIA DE ESCAPE
+
+Código *******Resultado
+\""           comilla simple
+\\            para mostrar barra invertida
+\n            linea nueva
+\r            retorno de carro
+\t            tabulacion
+\b            retroceso
+\f            salto de pagina
+
+*/
+
+
+//CONCATENAR CADENA DE CARACTERES
+
+/*var nombreCompleto= "Miguel" + " Ramirez";
+console.log(nombreCompleto);
+
+//concatenar con variables
+
+var accion="estudiar";
+var mensaje="me gusta " + accion + "de forma autodidacta";
+ console.log(mensaje);
+*/
+
+
+
+//LONGITUD DE UNA CADENA
+
+/*var miCadena;
+
+miCadena="día";
+console.log(miCadena.length);
+*/
+
+
+//ACCEDER A UN CARACTERER EN ESPECIAL
+
+// var nombre="Miguel";
+/* cadena:    M i g u e l
+   indice:    0 1 2 3 4 5  */
+//console.log(nombre[1]);
+
+
+//ENTRENAMIENTO CONCATENAR
+
+/* var miSustantivo = "perro";
+var miAdjetivo = "negro";
+var miVerbo = "corrió";
+var miAdverbio = "rápidamente";
+
+
+var palabrasEnBlanco = "El " + miSustantivo + " " + miAdjetivo + " " + miVerbo + " " + miAdverbio + " a la tieda";
+console.log(palabrasEnBlanco) */
+
+
+
+//ARREGLOS (ARRAYS)
+
+/* var miArreglo = ["Miguel" , 29];
+console.log(miArreglo);
+
+var estudiantes = ["Dora", "Carlos", "Andrea"];
+console.log(estudiantes); */
+
+
+
+//ARREGLOS ANINADOS
+ /* var listaDeEstudiantes = [["Dora", 98], ["Carlos", 90]];
+console.log(listaDeEstudiantes); */
+
+
+//ejemplo de acceso a cada elemnto con sus indices
+/*var miArreglo=[10,20,30]
+console.log(miArreglo[1]);
+
+var suma= miArreglo[0] + miArreglo[1] + miArreglo[2];
+console.log(suma);
+ */
+
+ 
+ //MODIFICAR ELEMENTOS DE UN ARREGLO
+
+ /* var miArreglo = [10,20,30];
+
+ miArreglo[0] = 40;
+console.log(miArreglo[0]) */
+
+
+
+//ACCEDER A ARREGLOS MULTIDIMENSIONALES
+/*SON ARREGLOS QUE DENTRO DE ELLOS TIENEN ARREGLOS ANIDADOS/*
+
+/*
+Arreglo              [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+Indices                   0          1          2
+Indices internos       0  1  2    0  1  2    0  1  2
+*/
+
+/*var miArreglo = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+console.log(miArreglo[1][0])//4
+console.log(miArreglo[0][2]);//3
+*/
+
+
+//AÑADIR ELEMENTO AL FINAL DE UN ARREGLOCON .PUSH
+
+/* var estaciones = ["Invierno", "Otoño", "Primavera"];
+console.log(estaciones);
+
+estaciones.push("Verano");
+console.log(estaciones); */
+
+
+//REMOVER ULTIMO ELEMENTO DE UN ARREGLO
+
+/*var estaciones = ["Invierno", "Otoño", "Primavera", "Verano"]
+estaciones.pop();
+console.log(estaciones); */
+
+
+//REMOVER PRIMER ELEMENTO DE UN ARREGLO
+
+/* var estaciones = ["Invierno", "Otoño", "Primavera", "Verano"];
+estaciones.shift();
+console.log(estaciones); */
+
+
+//AGREGAR ELEMENTO AL PRINCIPIO DE UN ARREGLO
+/* var estaciones = ["Otoño", "Primavera", "Verano"]
+estaciones.unshift("Invierno");
+console.log(estaciones); */
+
+
+//MINI PROYECTO (lista de compras)
+
+/* var miListaDeCompras = [["cereal", 5], ["leche", 10], ["huevos", 30], ["arroz", 30]];
+    console.log("Voy a comprar " + miListaDeCompras[0][1] + " unidades de " + miListaDeCompras[0][0] + ".")
+
+    console.log("Voy a comprar " + miListaDeCompras[1][1] + " unidades de " + miListaDeCompras[1][0] + ".")
+*/
+
+
+
+//FUNCIONES
+/*las funciones nos ahorran lineas de codigo*/
+/*function mostrarMensaje(){
+    console.log("Hola Mundo");
+}
+
+mostrarMensaje();
+mostrarMensaje();
+*/
+
+
+//ARGUMENTOS
+
+/*function sumar(a, b){
+    var suma = a + b;
+    console.log("El resultado de " + a + " + " + b + " es: " + suma)
+}
+
+sumar(5, 10);
+sumar(10, 10);
+ */
+
+
+ //VARIABLE GLOBAL
+ /*son las variables que están definidas por fuera de una funcion*/
+
+ /*function miFuncion(){
+     var miVariable = 4;
+     console.log(miVariable);
+ }
+
+ miFuncion();
+
+ console.log(miVariable);*/
+
+//quede en en 2:34:57
+
+
+
+
+</script>
+
+</body>
+</html>
